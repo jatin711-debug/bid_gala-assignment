@@ -1,5 +1,4 @@
 import { useState, createContext, useContext, useEffect } from "react";
-// import { ethers } from "ethers";
 const { ethereum } = window;
 const WalletContext = createContext();
 
