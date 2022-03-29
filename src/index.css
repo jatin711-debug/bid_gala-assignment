@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .navbar{
+        @apply fixed flex flex-row bg-black w-screen text-gray-300 items-center sm:flex-col md:flex-row lg:flex-row z-50
+    }
+
+    .company-logo-container{
+        @apply flex ml-10 relative w-screen items-center sm:hidden sm:m-2 md:hidden lg:flex
+    }
+
+    .logo-container{
+        @apply flex rounded-full m-2 w-20
+    }
+    .nav-component{
+        @apply mr-16 w-12 hover:text-2xl m-2 sm:w-4 sm:hover:text-sm
+    }
+    .company-name{
+        @apply ml-8 text-lg
+    }
+    .nav-content{
+        @apply relative w-screen text-6xl ml-20 hover:text-4xl sm:text-xl sm:ml-0 sm:text-center uppercase tracking-widest
+    }
+
+    .services{
+        @apply flex w-screen items-center justify-between sm:justify-center sm:mt-4 md:mr-auto
+    }
+    .wallet-button{
+        @apply bg-blue-700 rounded p-2 text-white font-bold sm:rounded-lg
+    }
+}
+
+.custom-font-family{
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+  
+.image {
+    min-height: 100vh;
+    position: relative;
+}
+  
+.image .content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+  
+.content span.img-txt {
+    background-color: #333;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+}
+  
+.text-box {
+    text-align: center;
+    padding: 3rem 1rem;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+
