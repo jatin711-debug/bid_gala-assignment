@@ -13,7 +13,7 @@
     }
 
     .logo-container{
-        @apply flex rounded-full m-2 w-20
+        @apply flex rounded-full m-2 w-10
     }
     .nav-component{
         @apply mr-16 w-12 hover:text-2xl m-2 sm:w-4 sm:hover:text-sm

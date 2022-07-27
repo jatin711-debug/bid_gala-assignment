@@ -7,11 +7,11 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <Component source="https://johnny-buck.s3.us-west-2.amazonaws.com/dark.jpg"/>
+      <Component source="https://codecary.com/wp-content/uploads/2021/11/maxresdefault-1.jpg"/>
       <TextBox/>
-      <Component source="https://johnny-buck.s3.us-west-2.amazonaws.com/hap.jpg"/>
+      <Component source="https://phlearn.com/wp-content/uploads/2015/11/PHLEARN-Parallax-header.jpg?fit=1140%2C680&quality=99&strip=all"/>
       <TextBox/>
-      <Component source="https://johnny-buck.s3.us-west-2.amazonaws.com/imgs.jpg"/>
+      <Component source="https://i.ytimg.com/vi/XdYEzui3Ttc/maxresdefault.jpg"/>
     </div>
   )
 }

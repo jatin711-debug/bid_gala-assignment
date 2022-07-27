@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="navbar custom-font-family">
             <div className="company-logo-container">
                 <div className="logo-container">
-                    <img className="logo-container" src="https://johnny-buck.s3.us-west-2.amazonaws.com/hap.jpg" alt="Images"/>
+                    <img className="logo-container" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/qp8rxi2jae4uinry2dv7" alt="Images"/>
                 </div>
                 <h3 className="company-name">Company Name</h3>
             </div>
